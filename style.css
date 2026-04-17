@@ -1,0 +1,55 @@
+p{
+    background-color: aqua;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    resize: both;
+    text-autospace: unset;
+}
+
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    background-color: crimson;
+    font-display: auto;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-delay: 10;
+    animation-trigger: unset;
+    background-color: chartreuse;
+    box-sizing: 34 em;
+    size-adjust: 40em;
+    font-size: medium;
+}
+
+mark{
+    background-color: gold;
+    border: 4 em;
+}
+
+body {
+    background-color:darkgrey;
+}
+
+h3 {
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+    font-style: italic;
+    animation-fill-mode: forwards;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: aqua;
+}
+
+.search-bar input{
+    padding: 8px 12px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    width: 400px;
+}
