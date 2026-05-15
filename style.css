@@ -53,3 +53,56 @@ h3 {
     border-radius: 5px;
     width: 400px;
 }
+
+.brand-menu{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn{
+    background-color: #333;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: #555;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.dropdown-content a{
+    color: #333;
+    padding: 10px 0;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
